@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.gem.chinesereader" android:installLocation="auto" android:versionCode="505" android:versionName="5">
+	<uses-sdk android:minSdkVersion="13" android:targetSdkVersion="27" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+		<!--<activity
+        android:name="JWPinyin.MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="orientation|screenSize"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustNothing">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.SEND" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="text/plain" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PROCESS_TEXT" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="text/plain" />
+      </intent-filter>
+    </activity>
+
+    <activity
+      android:name="com.gem.jwpinyin.SettingsActivity">
+    </activity>
+
+    <activity
+      android:name="com.gem.jwpinyin.FileBrowserActivity"
+      android:label="File browser"
+      android:configChanges="orientation|keyboardHidden">
+      <intent-filter>
+        <action android:name="com.gem.jwpinyin.SELECT_DIRECTORY_ACTION"></action>
+      </intent-filter>
+
+    </activity>
+
+    <activity
+      android:name="com.gem.jwpinyin.StarredActivity"
+      android:label="Starred"
+      android:configChanges="orientation|screenSize"
+      android:launchMode="singleTask">
+    </activity>
+
+    <service
+      android:name="PinyinerClipboardService"
+      android:label="Pinyiner Clipboard Monitor"
+      android:exported="false"/>
+
+    <receiver android:name=".PinyinerReceiver" android:enabled="true" android:exported="false">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+      </intent-filter>
+    </receiver>-->
+	</application>
+</manifest>
+<!--<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="JWPinyin.JWPinyin" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="JWPinyin"></application>
+</manifest>-->

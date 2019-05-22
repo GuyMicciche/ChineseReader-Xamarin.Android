@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:chinesereader="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/menu_open_button"
+    chinesereader:showAsAction="always"
+    android:icon="@drawable/ic_menu_archive"
+    android:title="@string/menu_open_button">
+
+    <menu
+      android:id="@+id/menu_open_submenu">
+      <item
+        android:id="@+id/action_open"
+        android:title="@string/action_open"/>
+      <item
+        android:id="@+id/action_save"
+        android:title="@string/action_save"/>
+      <item
+        android:id="@+id/menu_recent_title"
+        android:title="@string/menu_recent"
+        android:enabled="false"/>
+    </menu>
+  </item>
+  <item
+    android:id="@+id/action_paste"
+    chinesereader:showAsAction="always"
+    android:icon="@drawable/ic_action_paste"
+    android:title="@string/action_paste">
+  </item>
+  <item
+    android:id="@+id/action_settings"
+    chinesereader:showAsAction="never"
+    android:title="@string/action_settings"/>
+  <item
+    android:id="@+id/action_goto"
+    chinesereader:showAsAction="never"
+    android:title="@string/menu_goto"/>
+  <item
+    android:id="@+id/menu_starred"
+    chinesereader:showAsAction="never"
+    android:title="@string/menu_starred"/>
+  <item
+    android:id="@+id/menu_bookmarks"
+    chinesereader:showAsAction="never"
+    android:title="@string/menu_bookmarks"/>
+  <item
+    android:id="@+id/action_about"
+    chinesereader:showAsAction="never"
+    android:title="@string/action_about"/>
+
+</menu>

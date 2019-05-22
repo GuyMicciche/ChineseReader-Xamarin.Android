@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:chinesereader="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/action_settings"
+    chinesereader:showAsAction="never"
+    android:title="@string/action_settings"/>
+  <item
+    android:id="@+id/action_goto"
+    chinesereader:showAsAction="never"
+    android:title="@string/menu_goto"/>
+  <item
+    android:id="@+id/menu_starred_clear"
+    chinesereader:showAsAction="never"
+    android:title="@string/menu_starred_clear"/>
+  <item
+    android:id="@+id/menu_starred_export"
+    chinesereader:showAsAction="never"
+    android:title="@string/menu_starred_export"/>
+  <item
+    android:id="@+id/menu_starred_export_pinyin"
+    chinesereader:showAsAction="never"
+    android:title="@string/menu_starred_export_pinyin"/>
+  <item
+    android:id="@+id/menu_starred_export_pleco"
+    chinesereader:showAsAction="never"
+    android:title="@string/menu_starred_export_pleco"/>
+
+</menu>

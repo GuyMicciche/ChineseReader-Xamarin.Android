@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:chinesereader="http://schemas.android.com/apk/res-auto">
+  <ListPreference
+    android:key="pref_charType"
+    android:title="@string/pref_charType"
+    android:dialogTitle="@string/pref_charType"
+    android:entries="@array/pref_charTypeEntries"
+    android:entryValues="@array/pref_charTypeValues"
+    android:defaultValue="@string/pref_charTypeDefault"
+    android:summary="Original"/>
+  <ListPreference
+    android:key="pref_charFont"
+    android:title="@string/pref_charFont"
+    android:dialogTitle="@string/pref_charFont"
+    android:entries="@array/pref_charFontEntries"
+    android:entryValues="@array/pref_charFontValues"
+    android:defaultValue="@string/pref_charFontDefault"
+    android:summary="System Default"/>
+  <ListPreference
+    android:key="pref_toneColors"
+    android:title="@string/pref_toneColors"
+    android:dialogTitle="@string/pref_toneColors"
+    android:entries="@array/pref_toneColorsEntries"
+    android:entryValues="@array/pref_toneColorsValues"
+    android:defaultValue="@string/pref_toneColorsDefault"
+    android:summary="None"/>
+  <ListPreference
+    android:key="pref_pinyinType"
+    android:title="@string/pref_pinyinType"
+    android:dialogTitle="@string/pref_pinyinType"
+    android:entries="@array/pref_pinyinTypeEntries"
+    android:entryValues="@array/pref_pinyinTypeValues"
+    android:defaultValue="@string/pref_pinyinTypeDefault"
+    android:summary="pīn yīn"/>
+  <ChineseReader.Android.SeekBarPreference
+    android:key="pref_pinyinSizeInt"
+    android:title="@string/pref_pinyinSize"
+    android:defaultValue="100"
+    android:max="200"
+    android:summary="100%"
+    android:text="%"/>
+  <ChineseReader.Android.ColorListPreference
+    android:key="pref_pinyinColor"
+    android:title="@string/pref_pinyinColor"
+    android:dialogTitle="@string/pref_pinyinColor"
+    android:entries="@array/pref_pinyinColorEntries"
+    android:entryValues="@array/pref_pinyinColorValues"
+    android:defaultValue="@string/pref_pinyinColorDefault"
+    android:summary="Blue"/>
+  <ListPreference
+    android:key="pref_wordDist"
+    android:title="@string/pref_wordDist"
+    android:dialogTitle="@string/pref_wordDist"
+    android:entries="@array/pref_wordDistEntries"
+    android:entryValues="@array/pref_wordDistValues"
+    android:defaultValue="@string/pref_wordDistDefault"
+    android:summary="Dynamic"/>
+  <CheckBoxPreference
+    android:key="pref_monitor"
+    android:title="@string/pref_monitor"
+    android:defaultValue="@bool/pref_monitorDefault"
+    android:summary="Annotate copied text automatically"/>
+</PreferenceScreen>
